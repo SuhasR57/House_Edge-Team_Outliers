@@ -1,0 +1,575 @@
+{
+  "chosen": {
+    "name": "fast12_structure96",
+    "config": {
+      "name": "fast12_structure96",
+      "half_life": 12,
+      "strength": 2,
+      "temperature": 0.5,
+      "evidence_half_life": 96
+    },
+    "selection": {
+      "mean_brier": 0.4389012989991127,
+      "by_condition": {
+        "stable": 0.32028572156571,
+        "short_history": 0.4894256766257834,
+        "drift": 0.47304179460026125,
+        "shared_change": 0.4728520032046961
+      },
+      "by_episode": {
+        "main-train-e00012": 0.32192559884285277,
+        "main-train-e00044": 0.4004174253978501,
+        "main-train-e00081": 0.3361809788018957,
+        "main-train-e00005": 0.3583483582006029,
+        "main-train-e00087": 0.2656841910197585,
+        "main-train-e00017": 0.2391577771313002,
+        "main-train-e00084": 0.4224555225767769,
+        "main-train-e00078": 0.4906912292983641,
+        "main-train-e00016": 0.4015968511342278,
+        "main-train-e00061": 0.3533377218299789,
+        "main-train-e00079": 0.5831517749936652,
+        "main-train-e00075": 0.6853209599216875,
+        "main-train-e00065": 0.5865306968128814,
+        "main-train-e00056": 0.5257833330911432,
+        "main-train-e00060": 0.45646460790350857,
+        "main-train-e00019": 0.43859489700978055,
+        "main-train-e00004": 0.3152454288032699,
+        "main-train-e00049": 0.5156318039809837,
+        "main-train-e00009": 0.5241197053885126,
+        "main-train-e00034": 0.529018159545766,
+        "main-train-e00073": 0.29484277233113576,
+        "main-train-e00041": 0.4432695488548968,
+        "main-train-e00038": 0.4655556839868236,
+        "main-train-e00082": 0.5803061491210417
+      }
+    },
+    "seconds": 34.42954169999575
+  },
+  "candidates": [
+    {
+      "name": "fast12_structure96",
+      "config": {
+        "name": "fast12_structure96",
+        "half_life": 12,
+        "strength": 2,
+        "temperature": 0.5,
+        "evidence_half_life": 96
+      },
+      "selection": {
+        "mean_brier": 0.4389012989991127,
+        "by_condition": {
+          "stable": 0.32028572156571,
+          "short_history": 0.4894256766257834,
+          "drift": 0.47304179460026125,
+          "shared_change": 0.4728520032046961
+        },
+        "by_episode": {
+          "main-train-e00012": 0.32192559884285277,
+          "main-train-e00044": 0.4004174253978501,
+          "main-train-e00081": 0.3361809788018957,
+          "main-train-e00005": 0.3583483582006029,
+          "main-train-e00087": 0.2656841910197585,
+          "main-train-e00017": 0.2391577771313002,
+          "main-train-e00084": 0.4224555225767769,
+          "main-train-e00078": 0.4906912292983641,
+          "main-train-e00016": 0.4015968511342278,
+          "main-train-e00061": 0.3533377218299789,
+          "main-train-e00079": 0.5831517749936652,
+          "main-train-e00075": 0.6853209599216875,
+          "main-train-e00065": 0.5865306968128814,
+          "main-train-e00056": 0.5257833330911432,
+          "main-train-e00060": 0.45646460790350857,
+          "main-train-e00019": 0.43859489700978055,
+          "main-train-e00004": 0.3152454288032699,
+          "main-train-e00049": 0.5156318039809837,
+          "main-train-e00009": 0.5241197053885126,
+          "main-train-e00034": 0.529018159545766,
+          "main-train-e00073": 0.29484277233113576,
+          "main-train-e00041": 0.4432695488548968,
+          "main-train-e00038": 0.4655556839868236,
+          "main-train-e00082": 0.5803061491210417
+        }
+      },
+      "seconds": 34.42954169999575
+    },
+    {
+      "name": "fast24_structure96",
+      "config": {
+        "name": "fast24_structure96",
+        "half_life": 24,
+        "strength": 2,
+        "temperature": 0.5,
+        "evidence_half_life": 96
+      },
+      "selection": {
+        "mean_brier": 0.45936699965214156,
+        "by_condition": {
+          "stable": 0.3080479156505794,
+          "short_history": 0.4845505094200809,
+          "drift": 0.5265548102334902,
+          "shared_change": 0.5183147633044157
+        },
+        "by_episode": {
+          "main-train-e00012": 0.310945502697122,
+          "main-train-e00044": 0.3928795429235539,
+          "main-train-e00081": 0.3231531582838984,
+          "main-train-e00005": 0.34197161739812254,
+          "main-train-e00087": 0.2565641857924129,
+          "main-train-e00017": 0.22277348680836673,
+          "main-train-e00084": 0.4169779341784999,
+          "main-train-e00078": 0.48841390319099937,
+          "main-train-e00016": 0.3965364800463576,
+          "main-train-e00061": 0.3475519029422262,
+          "main-train-e00079": 0.5739921171235279,
+          "main-train-e00075": 0.6838307190388743,
+          "main-train-e00065": 0.6438218580953643,
+          "main-train-e00056": 0.5440513601617722,
+          "main-train-e00060": 0.5251555246570007,
+          "main-train-e00019": 0.5263876009296821,
+          "main-train-e00004": 0.37405168752439916,
+          "main-train-e00049": 0.5458608300327226,
+          "main-train-e00009": 0.5284317685759286,
+          "main-train-e00034": 0.5195161969237734,
+          "main-train-e00073": 0.354376077301177,
+          "main-train-e00041": 0.4945966545008067,
+          "main-train-e00038": 0.5253536243988604,
+          "main-train-e00082": 0.6876142581259481
+        }
+      },
+      "seconds": 37.286935100040864
+    },
+    {
+      "name": "fast12_structure24",
+      "config": {
+        "name": "fast12_structure24",
+        "half_life": 12,
+        "strength": 2,
+        "temperature": 0.5,
+        "evidence_half_life": 24
+      },
+      "selection": {
+        "mean_brier": 0.4673116845680203,
+        "by_condition": {
+          "stable": 0.3351471740943352,
+          "short_history": 0.5163634419200714,
+          "drift": 0.5104786217428479,
+          "shared_change": 0.5072575005148267
+        },
+        "by_episode": {
+          "main-train-e00012": 0.3320950614927793,
+          "main-train-e00044": 0.40694858186667293,
+          "main-train-e00081": 0.35089822391874503,
+          "main-train-e00005": 0.38938016948925547,
+          "main-train-e00087": 0.280656587554835,
+          "main-train-e00017": 0.25090442024372306,
+          "main-train-e00084": 0.4487120489763006,
+          "main-train-e00078": 0.5110145085866978,
+          "main-train-e00016": 0.4288076082607974,
+          "main-train-e00061": 0.3825514925506593,
+          "main-train-e00079": 0.6172480449707392,
+          "main-train-e00075": 0.7098469481752345,
+          "main-train-e00065": 0.6133661933052054,
+          "main-train-e00056": 0.556080688412069,
+          "main-train-e00060": 0.5085878669796606,
+          "main-train-e00019": 0.5061221293026744,
+          "main-train-e00004": 0.336151684834347,
+          "main-train-e00049": 0.5425631676231306,
+          "main-train-e00009": 0.549709230514458,
+          "main-train-e00034": 0.5490353421513284,
+          "main-train-e00073": 0.33270655217274353,
+          "main-train-e00041": 0.5156338690809639,
+          "main-train-e00038": 0.48802294040399974,
+          "main-train-e00082": 0.6084370687654662
+        }
+      },
+      "seconds": 39.03737579996232
+    },
+    {
+      "name": "fast24_structure48",
+      "config": {
+        "name": "fast24_structure48",
+        "half_life": 24,
+        "strength": 2,
+        "temperature": 0.5,
+        "evidence_half_life": 48
+      },
+      "selection": {
+        "mean_brier": 0.46513141273567077,
+        "by_condition": {
+          "stable": 0.3091189860851561,
+          "short_history": 0.4945067948379018,
+          "drift": 0.5317266715010672,
+          "shared_change": 0.5251731985185579
+        },
+        "by_episode": {
+          "main-train-e00012": 0.3121195535605053,
+          "main-train-e00044": 0.39276023587438524,
+          "main-train-e00081": 0.3221586657044668,
+          "main-train-e00005": 0.345402506928025,
+          "main-train-e00087": 0.25870161496269295,
+          "main-train-e00017": 0.2235713394808611,
+          "main-train-e00084": 0.4269849023069878,
+          "main-train-e00078": 0.4975146383362008,
+          "main-train-e00016": 0.40717444359661953,
+          "main-train-e00061": 0.35635606216084287,
+          "main-train-e00079": 0.5882810120400505,
+          "main-train-e00075": 0.6907297105867094,
+          "main-train-e00065": 0.6433151782593729,
+          "main-train-e00056": 0.5509583698343866,
+          "main-train-e00060": 0.5378967084330204,
+          "main-train-e00019": 0.5365674854399067,
+          "main-train-e00004": 0.37271327304329505,
+          "main-train-e00049": 0.5489090139964217,
+          "main-train-e00009": 0.5381488611019873,
+          "main-train-e00034": 0.5187341505076022,
+          "main-train-e00073": 0.36056042093793933,
+          "main-train-e00041": 0.5217838934137882,
+          "main-train-e00038": 0.5235900650348917,
+          "main-train-e00082": 0.6882218001151387
+        }
+      },
+      "seconds": 42.85362929996336
+    },
+    {
+      "name": "h48_a2_t05",
+      "config": {
+        "name": "h48_a2_t05",
+        "half_life": 48,
+        "strength": 2,
+        "temperature": 0.5,
+        "evidence_half_life": 48
+      },
+      "selection": {
+        "mean_brier": 0.5037377367575847,
+        "by_condition": {
+          "stable": 0.30526899708117333,
+          "short_history": 0.5016388826864332,
+          "drift": 0.6127865376229696,
+          "shared_change": 0.5952565296397628
+        },
+        "by_episode": {
+          "main-train-e00012": 0.316932373614343,
+          "main-train-e00044": 0.3886652411686118,
+          "main-train-e00081": 0.31632899657421965,
+          "main-train-e00005": 0.3347035873809141,
+          "main-train-e00087": 0.25430453372901674,
+          "main-train-e00017": 0.22067925001993507,
+          "main-train-e00084": 0.43492475157353844,
+          "main-train-e00078": 0.5051596193645412,
+          "main-train-e00016": 0.4132625784526984,
+          "main-train-e00061": 0.3617290215101554,
+          "main-train-e00079": 0.5942571940119811,
+          "main-train-e00075": 0.7005001312056846,
+          "main-train-e00065": 0.7464034588802142,
+          "main-train-e00056": 0.6424844087581286,
+          "main-train-e00060": 0.6272632051864704,
+          "main-train-e00019": 0.6169882117525097,
+          "main-train-e00004": 0.4324956267740625,
+          "main-train-e00049": 0.6110843143864326,
+          "main-train-e00009": 0.6191912663042327,
+          "main-train-e00034": 0.6021902641172914,
+          "main-train-e00073": 0.40934285170080587,
+          "main-train-e00041": 0.6041322965046662,
+          "main-train-e00038": 0.5745073364473816,
+          "main-train-e00082": 0.7621751627641989
+        }
+      },
+      "seconds": 42.79405379999662
+    },
+    {
+      "name": "adaptive_memory",
+      "components": [
+        "fast12_structure96",
+        "fast24_structure96",
+        "h48_a2_t05"
+      ],
+      "selection": {
+        "mean_brier": 0.44272121397359676,
+        "by_condition": {
+          "stable": 0.30752089923270237,
+          "short_history": 0.4906906551394709,
+          "drift": 0.4865765371887553,
+          "shared_change": 0.48609676433345844
+        },
+        "by_episode": {
+          "main-train-e00012": 0.31416477153779937,
+          "main-train-e00044": 0.3909172766415966,
+          "main-train-e00081": 0.32023000421643566,
+          "main-train-e00005": 0.3407259264884342,
+          "main-train-e00087": 0.25545159412361607,
+          "main-train-e00017": 0.22363582238833246,
+          "main-train-e00084": 0.42385797719377577,
+          "main-train-e00078": 0.49377577834315844,
+          "main-train-e00016": 0.4027837918871117,
+          "main-train-e00061": 0.35325580752877245,
+          "main-train-e00079": 0.5827110701724442,
+          "main-train-e00075": 0.6877595057115627,
+          "main-train-e00065": 0.601960276669518,
+          "main-train-e00056": 0.5215505972589193,
+          "main-train-e00060": 0.47408777372337774,
+          "main-train-e00019": 0.46442434411697076,
+          "main-train-e00004": 0.33804315595693907,
+          "main-train-e00049": 0.5193930754068069,
+          "main-train-e00009": 0.525412309718759,
+          "main-train-e00034": 0.5248730063006588,
+          "main-train-e00073": 0.30967570159955,
+          "main-train-e00041": 0.46208385409595154,
+          "main-train-e00038": 0.4770614469305815,
+          "main-train-e00082": 0.61747426735525
+        }
+      }
+    }
+  ],
+  "folds": {
+    "fit": [
+      "main-train-e00090",
+      "main-train-e00069",
+      "main-train-e00042",
+      "main-train-e00095",
+      "main-train-e00025",
+      "main-train-e00085",
+      "main-train-e00083",
+      "main-train-e00058",
+      "main-train-e00008",
+      "main-train-e00070",
+      "main-train-e00068",
+      "main-train-e00040",
+      "main-train-e00003",
+      "main-train-e00092",
+      "main-train-e00080",
+      "main-train-e00035",
+      "main-train-e00011",
+      "main-train-e00020",
+      "main-train-e00043",
+      "main-train-e00031",
+      "main-train-e00039",
+      "main-train-e00047",
+      "main-train-e00018",
+      "main-train-e00051",
+      "main-train-e00091",
+      "main-train-e00036",
+      "main-train-e00050",
+      "main-train-e00053",
+      "main-train-e00013",
+      "main-train-e00074",
+      "main-train-e00014",
+      "main-train-e00029",
+      "main-train-e00067",
+      "main-train-e00076",
+      "main-train-e00026",
+      "main-train-e00028",
+      "main-train-e00059",
+      "main-train-e00033",
+      "main-train-e00089",
+      "main-train-e00030",
+      "main-train-e00054",
+      "main-train-e00093",
+      "main-train-e00066",
+      "main-train-e00010",
+      "main-train-e00057",
+      "main-train-e00072",
+      "main-train-e00086",
+      "main-train-e00064"
+    ],
+    "select": [
+      "main-train-e00012",
+      "main-train-e00044",
+      "main-train-e00081",
+      "main-train-e00005",
+      "main-train-e00087",
+      "main-train-e00017",
+      "main-train-e00084",
+      "main-train-e00078",
+      "main-train-e00016",
+      "main-train-e00061",
+      "main-train-e00079",
+      "main-train-e00075",
+      "main-train-e00065",
+      "main-train-e00056",
+      "main-train-e00060",
+      "main-train-e00019",
+      "main-train-e00004",
+      "main-train-e00049",
+      "main-train-e00009",
+      "main-train-e00034",
+      "main-train-e00073",
+      "main-train-e00041",
+      "main-train-e00038",
+      "main-train-e00082"
+    ],
+    "audit": [
+      "main-train-e00024",
+      "main-train-e00048",
+      "main-train-e00071",
+      "main-train-e00007",
+      "main-train-e00063",
+      "main-train-e00000",
+      "main-train-e00027",
+      "main-train-e00052",
+      "main-train-e00015",
+      "main-train-e00055",
+      "main-train-e00002",
+      "main-train-e00032",
+      "main-train-e00023",
+      "main-train-e00062",
+      "main-train-e00046",
+      "main-train-e00094",
+      "main-train-e00021",
+      "main-train-e00088",
+      "main-train-e00045",
+      "main-train-e00077",
+      "main-train-e00001",
+      "main-train-e00022",
+      "main-train-e00037",
+      "main-train-e00006"
+    ]
+  },
+  "train_audit": {
+    "mean_brier": 0.4716583302137336,
+    "by_condition": {
+      "stable": 0.43273946586277817,
+      "short_history": 0.5064998814188458,
+      "drift": 0.4850058863956826,
+      "shared_change": 0.46238808717762775
+    },
+    "by_episode": {
+      "main-train-e00024": 0.3806716569192031,
+      "main-train-e00048": 0.34243174508291396,
+      "main-train-e00071": 0.4620348720133332,
+      "main-train-e00007": 0.4570513313598367,
+      "main-train-e00063": 0.4378767953260139,
+      "main-train-e00000": 0.5163703944753684,
+      "main-train-e00027": 0.4625435939959225,
+      "main-train-e00052": 0.5151596830857725,
+      "main-train-e00015": 0.4595817174998568,
+      "main-train-e00055": 0.4613409595315063,
+      "main-train-e00002": 0.5444470633274803,
+      "main-train-e00032": 0.5959262710725368,
+      "main-train-e00023": 0.6855853044029901,
+      "main-train-e00062": 0.46198012694775925,
+      "main-train-e00046": 0.3939799978162737,
+      "main-train-e00094": 0.47376629351933164,
+      "main-train-e00021": 0.37498777380535175,
+      "main-train-e00088": 0.5197358218823893,
+      "main-train-e00045": 0.414313849531539,
+      "main-train-e00077": 0.5935727851916656,
+      "main-train-e00001": 0.4245174842726085,
+      "main-train-e00022": 0.5041037246962019,
+      "main-train-e00037": 0.45808147666231913,
+      "main-train-e00006": 0.37973920271143224
+    }
+  },
+  "caveat": "Selection uses train selection episodes only. Train audit was inspected once in the first hierarchical experiment and is now reused. Validation was inspected for the first architecture; not a fresh holdout. No validation probabilities used for fitting.",
+  "selection_rule": "Four new predeclared fast-memory configurations, original selected configuration, and one fixed adaptive-memory mixture; choose minimum train-selection Brier.",
+  "validation": {
+    "old_tuning": {
+      "contest_version": "temporal-adaptation-v3-60-40",
+      "technical_points": 47.4145895435533,
+      "max_points": 60.0,
+      "mean_loss_ratio": 0.26543328915430575,
+      "by_condition": {
+        "stable": {
+          "error": 0.05736225932410641,
+          "reference_error": 0.2075817092922777,
+          "loss_ratio": 0.2763358078111767,
+          "episodes": 12,
+          "queries": 96
+        },
+        "short_history": {
+          "error": 0.06365466481364314,
+          "reference_error": 0.18883416552378887,
+          "loss_ratio": 0.33709294415593494,
+          "episodes": 12,
+          "queries": 96
+        },
+        "drift": {
+          "error": 0.04804561854161518,
+          "reference_error": 0.20195808248828526,
+          "loss_ratio": 0.23789896373373473,
+          "episodes": 12,
+          "queries": 96
+        },
+        "shared_change": {
+          "error": 0.044489986944795966,
+          "reference_error": 0.21144884253481844,
+          "loss_ratio": 0.21040544091637664,
+          "episodes": 12,
+          "queries": 96
+        }
+      }
+    },
+    "old_audit": {
+      "contest_version": "temporal-adaptation-v3-60-40",
+      "technical_points": 47.513064769239605,
+      "max_points": 60.0,
+      "mean_loss_ratio": 0.26281056150359206,
+      "by_condition": {
+        "stable": {
+          "error": 0.03660204784177857,
+          "reference_error": 0.18491989649352614,
+          "loss_ratio": 0.19793461134161933,
+          "episodes": 12,
+          "queries": 96
+        },
+        "short_history": {
+          "error": 0.06768157662346845,
+          "reference_error": 0.1658487304519447,
+          "loss_ratio": 0.40809222017577906,
+          "episodes": 12,
+          "queries": 96
+        },
+        "drift": {
+          "error": 0.03654900752455511,
+          "reference_error": 0.17770977879531302,
+          "loss_ratio": 0.20566683371235542,
+          "episodes": 12,
+          "queries": 96
+        },
+        "shared_change": {
+          "error": 0.047832211800585354,
+          "reference_error": 0.19967645662485792,
+          "loss_ratio": 0.23954858078461452,
+          "episodes": 12,
+          "queries": 96
+        }
+      }
+    },
+    "full": {
+      "contest_version": "temporal-adaptation-v3-60-40",
+      "technical_points": 47.458381385659806,
+      "max_points": 60.0,
+      "mean_loss_ratio": 0.26426562070087406,
+      "by_condition": {
+        "stable": {
+          "error": 0.04698215358294249,
+          "reference_error": 0.19625080289290195,
+          "loss_ratio": 0.23939852928184763,
+          "episodes": 24,
+          "queries": 192
+        },
+        "short_history": {
+          "error": 0.0656681207185558,
+          "reference_error": 0.1773414479878668,
+          "loss_ratio": 0.37029200710624977,
+          "episodes": 24,
+          "queries": 192
+        },
+        "drift": {
+          "error": 0.04229731303308515,
+          "reference_error": 0.18983393064179913,
+          "loss_ratio": 0.22281218584098472,
+          "episodes": 24,
+          "queries": 192
+        },
+        "shared_change": {
+          "error": 0.04616109937269066,
+          "reference_error": 0.20556264957983816,
+          "loss_ratio": 0.22455976057441418,
+          "episodes": 24,
+          "queries": 192
+        }
+      }
+    }
+  },
+  "test_inference_seconds": 91.1542560000089
+}

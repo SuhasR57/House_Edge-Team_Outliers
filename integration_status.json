@@ -1,0 +1,19 @@
+{
+  "implemented": true,
+  "offline_tests_passed": 27,
+  "live_gemini_verified": true,
+  "live_status": "Live review and reference validation succeeded",
+  "award_target": "Best Use of Gemini API",
+  "eligibility_confirmed": false,
+  "forecast_csv_unchanged": true,
+  "forecast_csv_sha256": "7d50109502a8c9fc90401f983879a4acf06bf9663e871b0234f268b6192ac7aa",
+  "existing_team_zip_preserved_sha256": "e44f046cd8047cf48d0052228c4af2ce2e349d8b71ad9f71e3461522c79e7498",
+  "corrected_code_zip": "house-edge_Team_Outliers_corrected.zip",
+  "corrected_zip_sha256": "fbc2c6d3d1976c2b7ee542fce889836b306837b116051dc79de7a3ff4b5163c7",
+  "corrected_zip_bytes": 23245,
+  "core_prediction_files_identical": true,
+  "zip_root_contract_passed": true,
+  "updated_at": "2026-11-08T06:44:21.269776+00:00",
+  "credential_setup": "Local .env or process environment; optional --ask-key",
+  "live_receipt": "live-review/receipt.json"
+}

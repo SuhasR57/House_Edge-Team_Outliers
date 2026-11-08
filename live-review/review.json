@@ -1,0 +1,55 @@
+{
+  "summary": "Validation points improved from 31.37 in the temporal model to 47.46 in the hierarchical model, with mean normalized error dropping from 0.9129 to 0.2643 across all conditions. The weakest condition remains short_history at 0.3703 normalized error. Zero overfitting cannot be claimed due to repeated validation inspection and reused train audit data, and hidden-test rank cannot be predicted from available evidence.",
+  "answerable": true,
+  "abstention_reason": "",
+  "findings": [
+    {
+      "title": "Hierarchical Model Quantitative Improvement Across Conditions",
+      "interpretation": "Measured full validation points increased from 31.37 to 47.46, accompanied by a drop in mean normalized error from 0.9129 to 0.2643. While metrics improved across drift, shared_change, stable, and short_history, attributing this solely to specific structural components remains a hypothesis rather than causal proof.",
+      "evidence_ids": [
+        "temporal.points",
+        "temporal.ratio",
+        "hierarchical.points",
+        "hierarchical.ratio"
+      ]
+    },
+    {
+      "title": "Weakest Condition Identified as Short History",
+      "interpretation": "Across both architectures, short_history exhibited the highest normalized error: 0.9874 in the temporal baseline and 0.3703 in the hierarchical model, making it the weakest measured condition.",
+      "evidence_ids": [
+        "temporal.short_history",
+        "hierarchical.short_history",
+        "hierarchical.stable",
+        "hierarchical.drift",
+        "hierarchical.shared_change"
+      ]
+    },
+    {
+      "title": "No Guarantee of Zero Overfitting or Hidden-Test Rank",
+      "interpretation": "Validation was inspected across multiple iterations rather than serving as a fresh holdout, and the train audit split was previously inspected and reused. Furthermore, hidden-test performance is unobserved, precluding any claim of zero overfitting or rank predictions.",
+      "evidence_ids": [
+        "evaluation.caveat",
+        "evaluation.bootstrap",
+        "test.unknown"
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "hypothesis": "Tuning structural evidence accumulation half-life specifically for episodes with sparse history will lower Brier score on training selection episodes without degrading general performance.",
+      "change": "Evaluate candidate configurations with shorter evidence_half_life (e.g., 48 vs baseline 96) strictly on train selection episodes, maintaining the frozen fast12_structure96 configuration as a fallback.",
+      "measurement": "Evaluate train-selection episode Brier score and condition-stratified normalized error on short_history episodes.",
+      "success_criterion": "Achieve lower train-selection Brier score than the frozen baseline fast12_structure96 configuration on training episodes while preserving baseline fallback if it fails.",
+      "evidence_ids": [
+        "evaluation.selection_rule",
+        "model.configuration",
+        "hierarchical.short_history"
+      ]
+    }
+  ],
+  "limitations": [
+    "Validation data has been repeatedly inspected across iterations and does not constitute a fresh, untouched audit.",
+    "Train audit set was previously inspected during the initial hierarchical experiment and is reused rather than independent.",
+    "Hidden-test ground truth and rankings are entirely absent from the evidence, preventing generalization guarantees."
+  ]
+}

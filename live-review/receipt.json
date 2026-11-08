@@ -1,0 +1,20 @@
+{
+  "provider": "Google Gemini Interactions API",
+  "requested_model": "gemini-3.8-flash",
+  "returned_model": "gemini-3.8-flash",
+  "response_id": "not supplied",
+  "latency_seconds": 88.404,
+  "usage": {
+    "total_tokens": 4130,
+    "total_input_tokens": 2529,
+    "total_output_tokens": 743,
+    "total_thought_tokens": 858
+  },
+  "finish_reason": "completed",
+  "status": "live_success",
+  "created_at": "2026-11-08T07:13:59.345360+00:00",
+  "evidence_sha256": "3f9d6346031e221f8db2fcfddcc30bc1b684c1a0064a01d9f8d591603a667996",
+  "request_sha256": "a00f815d142f83244ef52051d8a14fe6c210bf7595a1eca9469dea09399a6019",
+  "review_sha256": "0c682da6005b2be2c8541bb141fe83043f80036bee1a2e5c7442556715996012",
+  "reference_validation": "passed; semantic interpretation still requires review"
+}

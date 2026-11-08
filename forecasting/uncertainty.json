@@ -1,0 +1,13 @@
+{
+  "seed": 2718,
+  "resamples": 2000,
+  "point_gain_95_interval": [
+    15.327007085748402,
+    16.86401281544671
+  ],
+  "candidate_points_95_interval": [
+    46.57962225225586,
+    48.30459079209698
+  ],
+  "caveat": "Descriptive sampling uncertainty on repeatedly inspected validation; not a correction for model-selection bias and not a guarantee of test performance."
+}

@@ -1,0 +1,7 @@
+reports/
+__pycache__/
+.env
+.env.*
+*.key
+*secret*
+!/.env.example

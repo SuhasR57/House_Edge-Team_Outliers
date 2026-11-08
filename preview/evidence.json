@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "project": "EdgeShift Lab",
+  "created_at": "2026-11-08T06:38:25.827471+00:00",
+  "round": "main",
+  "facts": [
+    {
+      "id": "temporal.points",
+      "label": "Temporal full validation points",
+      "value": 31.366494366894376,
+      "source": "house-edge-temporal/experiments.json"
+    },
+    {
+      "id": "temporal.ratio",
+      "label": "Temporal mean normalized error",
+      "value": 0.9128691685522473,
+      "source": "house-edge-temporal/experiments.json"
+    },
+    {
+      "id": "temporal.drift",
+      "label": "Temporal / drift normalized error",
+      "value": 0.8986613759418693,
+      "source": "house-edge-temporal/experiments.json"
+    },
+    {
+      "id": "temporal.shared_change",
+      "label": "Temporal / shared_change normalized error",
+      "value": 0.8270236814191377,
+      "source": "house-edge-temporal/experiments.json"
+    },
+    {
+      "id": "temporal.short_history",
+      "label": "Temporal / short_history normalized error",
+      "value": 0.9873985054322382,
+      "source": "house-edge-temporal/experiments.json"
+    },
+    {
+      "id": "temporal.stable",
+      "label": "Temporal / stable normalized error",
+      "value": 0.938393111415744,
+      "source": "house-edge-temporal/experiments.json"
+    },
+    {
+      "id": "hierarchical.points",
+      "label": "Hierarchical full validation points",
+      "value": 47.458381385659806,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.ratio",
+      "label": "Hierarchical mean normalized error",
+      "value": 0.26426562070087406,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.stable",
+      "label": "Hierarchical / stable normalized error",
+      "value": 0.23939852928184763,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.short_history",
+      "label": "Hierarchical / short_history normalized error",
+      "value": 0.37029200710624977,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.drift",
+      "label": "Hierarchical / drift normalized error",
+      "value": 0.22281218584098472,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.shared_change",
+      "label": "Hierarchical / shared_change normalized error",
+      "value": 0.22455976057441418,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.old_tuning.points",
+      "label": "Hierarchical old_tuning validation points",
+      "value": 47.4145895435533,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "hierarchical.old_audit.points",
+      "label": "Hierarchical old_audit validation points",
+      "value": 47.513064769239605,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "evaluation.caveat",
+      "label": "Evaluation limitations",
+      "value": "Selection uses train selection episodes only. Train audit was inspected once in the first hierarchical experiment and is now reused. Validation was inspected for the first architecture; not a fresh holdout. No validation probabilities used for fitting.",
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "evaluation.selection_rule",
+      "label": "Model selection procedure",
+      "value": "Four new predeclared fast-memory configurations, original selected configuration, and one fixed adaptive-memory mixture; choose minimum train-selection Brier.",
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "evaluation.train_audit_brier",
+      "label": "Reserved-training observed-outcome Brier",
+      "value": 0.4716583302137336,
+      "source": "house-edge-hierarchical-refined/training_report.json"
+    },
+    {
+      "id": "model.configuration",
+      "label": "Frozen hierarchical configuration",
+      "value": {
+        "name": "fast12_structure96",
+        "components": [
+          {
+            "name": "fast12_structure96",
+            "half_life": 12,
+            "strength": 2,
+            "temperature": 0.5,
+            "evidence_half_life": 96
+          }
+        ]
+      },
+      "source": "house-edge-hierarchical-refined/config.json"
+    },
+    {
+      "id": "submission.verification",
+      "label": "Offline reproduction and file checks",
+      "value": {
+        "passed": true,
+        "queries": 1536,
+        "max_probability_difference": 0.0,
+        "byte_identical": true,
+        "csv_bytes": 202347,
+        "zip_bytes": 32481,
+        "csv_sha256": "7d50109502a8c9fc90401f983879a4acf06bf9663e871b0234f268b6192ac7aa",
+        "zip_sha256": "5f3627627004dfa683a58d7193400e1668f05e552bd0baf5b6601011be4e45ee",
+        "reproduction_seconds": 41.3082043
+      },
+      "source": "house-edge-hierarchical-refined/verification.json"
+    },
+    {
+      "id": "evaluation.bootstrap",
+      "label": "Descriptive episode bootstrap",
+      "value": {
+        "seed": 2718,
+        "resamples": 2000,
+        "point_gain_95_interval": [
+          15.327007085748402,
+          16.86401281544671
+        ],
+        "candidate_points_95_interval": [
+          46.57962225225586,
+          48.30459079209698
+        ],
+        "caveat": "Descriptive sampling uncertainty on repeatedly inspected validation; not a correction for model-selection bias and not a guarantee of test performance."
+      },
+      "source": "house-edge-hierarchical-refined/uncertainty.json"
+    },
+    {
+      "id": "score.definition",
+      "label": "House Edge score definition",
+      "value": {
+        "main_max": 60,
+        "formula": "60 / (1 + mean normalized condition error)",
+        "score_is_accuracy": false
+      },
+      "source": "Organizer 60/40 kit RULES.md"
+    },
+    {
+      "id": "test.unknown",
+      "label": "Hidden-test performance",
+      "value": "No hidden-test score is available; validation is not a ranking guarantee.",
+      "source": "Project evidence boundary"
+    },
+    {
+      "id": "sponsor.separation",
+      "label": "Gemini role",
+      "value": "Gemini reviews evidence and proposes hypotheses. It does not generate, alter, or upload competition forecasts.",
+      "source": "Application design"
+    }
+  ],
+  "sources": [
+    {
+      "path": "house-edge-temporal/experiments.json",
+      "sha256": "2038f906851d78ddf762aff33e3c5e748355610372d3eb0c0aefedac0914319f"
+    },
+    {
+      "path": "house-edge-hierarchical-refined/training_report.json",
+      "sha256": "1a3a32c762bc9109c7caf5a89df91c8064ab05e36f4d0734107225eb2eeab159"
+    },
+    {
+      "path": "house-edge-hierarchical-refined/verification.json",
+      "sha256": "2b407a9f6ab14fcb01b704a8571ff598a451e971540266f8d034e9fd05c06577"
+    },
+    {
+      "path": "house-edge-hierarchical-refined/config.json",
+      "sha256": "05ea84a783d728553e123e0b906967b6ac2c6ec4e020e418e04f7a059dafca97"
+    },
+    {
+      "path": "house-edge-hierarchical-refined/uncertainty.json",
+      "sha256": "919e1fd279e69cce4906e148698ac2914d71e8502816ae40cbfcd5819ec80b1f"
+    }
+  ],
+  "transmission": "Only this aggregate evidence packet and the review question are sent to Gemini. No raw histories, test forecasts, model checkpoints, credentials, or local absolute paths are included."
+}

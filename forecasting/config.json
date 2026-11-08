@@ -1,0 +1,12 @@
+{
+  "name": "fast12_structure96",
+  "components": [
+    {
+      "name": "fast12_structure96",
+      "half_life": 12,
+      "strength": 2,
+      "temperature": 0.5,
+      "evidence_half_life": 96
+    }
+  ]
+}
